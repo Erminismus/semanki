@@ -57,6 +57,9 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
+      //My comment: We can change the code successfully!
+      //_counter += 2; makes the coutner count only the even numbers
+
       _counter++;
     });
   }
